@@ -37,7 +37,7 @@ namespace AnimatedWallpaper
 
 		[DllImport("user32.dll", CharSet = CharSet.Auto, ExactSpelling = true)]
 		public static extern IntPtr GetForegroundWindow();
-		
+
 		[DllImport("user32.dll", SetLastError = true)]
 		public static extern IntPtr FindWindow(string lpClassName, string lpWindowName);
 
